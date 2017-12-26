@@ -3,8 +3,8 @@
  */
 import { Component, OnInit } from '@angular/core';
 
-import { Hero } from './hero';
-import { HeroService } from './hero.service';
+import { Hero } from './hero/hero';
+import { HeroService } from './hero/hero.service';
 
 @Component({
   selector: 'my-dashboard',

@@ -1,7 +1,7 @@
 /**
  * Created by S10006 on 2017/12/22.
  */
-import { Hero } from './hero';
+import { Hero } from './hero/hero';
 
 export const HEROES: Hero[] = [
   { id: 11, name: 'Mr. Nice' },
