@@ -1,5 +1,6 @@
 # MyApp
 
+## 主要学习惰性路由，实现按需加载
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
 
 ## Development server
