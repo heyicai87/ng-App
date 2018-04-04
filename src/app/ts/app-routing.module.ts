@@ -10,11 +10,12 @@ import { DashboardComponent } from './dashboard.component';
 //import { SelectivePreloadingStrategy } from './selective-preloading-strategy';
 
 const appRouteConfig: Routes = [
-  { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-  { path: 'dashboard',  component: DashboardComponent },
+  { path : '', redirectTo: 'dashboard', pathMatch: 'full' },
+  { path : 'dashboard',  component: DashboardComponent },
   //{ path: 'detail/:id', component: HeroDetailComponent },
   //{ path: 'heroes',     component: HeroesComponent }
-  { path : 'hero', loadChildren : './hero/hero.module#HeroModule'}
+  { path : 'hero', loadChildren : './hero/hero.module#HeroModule'},
+  { path : 'lion', loadChildren : './lion/lion.module#LionModule'}
 ];
 
 @NgModule({
